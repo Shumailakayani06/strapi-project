@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "establishments",
+  "info": {
+    "singularName": "establishment",
+    "pluralName": "establishments",
+    "displayName": "establishment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
