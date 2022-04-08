@@ -4,7 +4,8 @@
   "info": {
     "singularName": "establishment",
     "pluralName": "establishments",
-    "displayName": "establishment"
+    "displayName": "establishment",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,17 +19,24 @@
       "type": "integer"
     },
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "description": {
       "type": "text"
+    },
+    "pic": {
+      "type": "richtext"
+    },
+    "imagee": {
+      "type": "string"
     }
   }
 }
