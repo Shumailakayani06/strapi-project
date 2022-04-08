@@ -1,7 +1,7 @@
 module.exports = ({ env }) => ({
-    url: env(process.env.DATABASE_URL),
+    url: env("https://holidaze-exam-api.herokuapp.com/"),
     proxy: true,
     app: {
-      keys: env.array("APP_KEYS", ["key1", "key2"]),
+      keys: env.array("APP_KEYS", ["Key1", "Key2"]),
     },
   });
